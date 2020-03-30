@@ -1,0 +1,181 @@
+<div class="body">
+<header>
+        <nav class="menu">
+            <ul class="menu">
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="#step-one">one</a>
+                </li>
+                <li>
+                    <a href="#step-two">two</a>
+                </li>
+                <li>
+                    <a href="#step-three">three</a>
+                </li>
+                 <li>
+                    <a href="#step-four">four</a>
+                </li>
+            
+            </ul>
+            <a href="#" id="toggle-btn">Tutorial</a>
+        </nav>
+    </header>
+<!-- content -->
+
+    <a name="home"></a>
+    <div id="content-style" class="section-hero">
+        <div class="container">
+            <h1>Ember.js Tutorial</h1>
+        <br>
+            <h3 class="h3-color">step by step</h3>
+            <label>setting up ember.js is very quick and simple, this tutorial will walk you through how to properly set up a ember.js project</label>
+        </div>
+    </div>
+
+
+    <!---"step-one"-->
+    <a name="step-one"></a>
+    <div id="step-one" class="section">
+        <div class="container">
+            <div class="information-content"></div>
+            <h2>
+              step one
+            </h2>
+        <label>first, you will want to install node.js onto your device</label>
+        <p>below is a link to nodejs.org to install node.js for your device</p>
+        <p><a href="https://nodejs.org/en/download/"target="_blank" id="link-style">this link</a> will take you to the following page:</p>
+          <img src="images/node1.png" id="node-style">
+
+        </div>
+       
+
+    </div>
+
+    <!-- step2 section-->
+
+
+    <div id="step-two" class="section">
+        <div class="container">
+            <div class="photo-content"></div>
+            <h2>
+           step two
+            </h2>
+            <label>once you have node.js installed correctly: </label>
+          <p>a) open up your command prompt and type the following:</p>
+          <h3 id="h3-color">npm install -g ember-cli</h3>
+            <br>
+            <label>this will install all the dependencies associated with ember</label>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <p>b) next, type in the following into the cmd prompt:</p>
+            <h3 id="h3-color">ember new projectName </h3>
+            <br>
+            <label>("projectName" can be changed to whatever you want your project to be named as)</label>
+            
+            <img src="images/cmd3.png" id ="cmd-pics">
+            <br>
+            <label>your cmd prompt should look like the above picture now.</label>
+
+
+            <br>
+            <br>
+            <p>c) once npm finishes installing the dependencies, your command prompt should display:</p>
+            <img src="images/cmd4.png" id="cmd-pic4">
+            <br>
+
+            <p>d) now simply follow the instructions where it says to "Get started by typing:"</p>
+            <label>make sure to first type in:<h3 id="h3-color">cd projectName</h3 >then type in:<h3 id="h3-color">npm start</h3></label>
+        </div>
+    </div>
+    
+
+    <!--step 3-->
+    <div id="step-three" class="section">
+        <div class="container">
+            <div class="information-content"></div>
+            <h2>
+                step three
+            </h2>
+            <p>a) direct yourself to wherever the project folder that you created is in</p>
+            <label>in this example case, the folder name is "projectName"</label>
+
+            <br>
+            <br>
+
+            <p>b) once you find the folder, open it in whatever editor you choose. You will see a lot of additional folders and files stored inside your project</p>
+            <label>-this is because what you did in step 2 installed all the necessary folders and files into your project folder to properly run ember.js</label>
+          <br>
+          <label>-i opened my project folder in visual studio code. Once opened, you should see something like the following:</label>
+            <br>
+            <img src="images/ember1.png" id="ember1-pic">
+            <br>
+            <label>-where you will be writing most of your code is located in the "app" folder.</label>
+            <br>
+            <label>-here, you will see that the package install automatically provided you with folders to organize your code.</label>
+
+            <br>
+            <img src="images/ember2.png" id="ember2-pic">
+            <br>
+            <label>-if you look at the "templates" folder, you will see a file named application.hbs.</label>
+            <br>
+            <label>-this application file is where you will begin writing code for the structure of your website</label>
+            <br>
+           <img src="images/ember3.png" id="ember3-pic">
+
+            
+        </div>
+    </div>
+
+<!--step four-->
+
+
+        <div id="step-four" class="section">
+            <div class="container">
+             <div class="information-content"></div>
+             <h2>
+                step four
+            </h2>
+            <p>great, you've gotten your folders and essential files set up,
+                now how do you actually test if your code is working and if your browser looks the way you want it to?
+            </p>
+            <label>-unlike a regular .html file, you cannot use live server with VScode. Instead, follow along:</label>
+            <br>
+            <br>
+            <br>
+            <p>a) open up your project folder in the file explorer and type in "cmd" in your project folder to open up the command prompt once more:</p>
+            
+              <img src="images/step4-2.png" id="step4-1">
+              <br>
+        <p>b) once open, type in "ember serve" and push enter like so:</p>
+              <img src="images/step4-3.png" id="step4-2">
+        <br>
+            <label>-after a few seconds or possibly minutes (depending on your internet connection), you should see the following:</label>
+            <img src="images/step4-4.png" id="step4-4">
+            <br>
+        <label>-if your build was successful, your command prompt should tell you so like above.</label>
+        <br>
+        <label>-if your build was unsuccesful, copy paste the error message into google and hope for the best.</label>
+        <br>
+        <p>c) copy and paste the url after where it says "Build successful", and paste it in whatever browser you are using.</p>
+        <label>-now this default page for ember should show:</label>
+                        <img src="images/welcome.png" id="welcome-pic">
+                        <br>
+                        <label>-if you reach the welcome page: </label>
+                 <h3 id="h3-color"><strong>congrats! you have successfully set up your environment to begin writing in ember.js</strong></h3>
+            </div>
+        </div>
+   
+    <!-- footer -->
+    <footer>
+        <span>jiHwan & alex</span>
+    </footer>
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/tutorial-project.js"></script>
+    </div>
+{{outlet}} 
